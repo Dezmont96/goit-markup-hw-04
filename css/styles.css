@@ -157,6 +157,18 @@ img {
 /* #region section effective-solutions */
 .section-effective-solutions {
   background: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+
   padding: 188px 0;
 }
 .effective-h {
@@ -209,6 +221,19 @@ img {
   justify-content: space-between;
   gap: 24px;
 }
+
+.advantages-icon-box {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
 .advantages-h {
   font-weight: 500;
   font-size: 20px;
@@ -248,6 +273,32 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-social-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.our-team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-team-social-icon {
+  fill: #f4f4fd;
+}
+
+.our-team-social-link:hover {
+  background-color: #404bbf;
+}
+
 .our-team-container {
   padding: 32px 0;
 }
@@ -266,6 +317,7 @@ img {
 .our-team-p {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 8px;
 }
 /* #endregion Our Team */
 /* #region Our Portfolio */
@@ -346,4 +398,40 @@ img {
 .span-studio {
   color: #f4f4fd;
 }
+.container-footer {
+  display: flex;
+  gap: 120px;
+}
+.footer-social {
+  font-weight: 500;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.foter-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.foter-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foter-social-icon {
+  fill: #f4f4fd;
+}
+
+.foter-social-link:hover {
+  background-color: #31d0aa;
+}
+
 /* #endregion footer */
