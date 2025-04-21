@@ -338,7 +338,6 @@ img {
 }
 
 .our-portfolio-item {
-  overflow: hidden;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 24px * 2) / 3);
 }
@@ -380,6 +379,7 @@ img {
   color: #434455;
 }
 .tymba-portfolio {
+  overflow: hidden;
   position: relative;
 }
 .tymba-portfolio-text {
