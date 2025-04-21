@@ -379,8 +379,8 @@ img {
   color: #434455;
 }
 .tymba-portfolio {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 .tymba-portfolio-text {
   position: absolute;
